@@ -1,0 +1,4 @@
+1. python3 setup.py
+2. python3 app.py
+3. start mongo/redis
+4. celery -A app_new.celery worker --loglevel=info -Q 'dut_queue_*'
